@@ -1,0 +1,238 @@
+/*--------------------------------------------------------------
+# index.html
+--------------------------------------------------------------*/
+.ml3vw {
+    margin-left: 3vw !important;
+}
+
+.blind {
+    display: none;
+}
+
+.size {
+    width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer-bg {
+    background: #BDC6CE !important;
+}
+
+.inline {
+    list-style: none;
+    display: inline !important;
+}
+
+/*--------------------------------------------------------------
+# about.html
+--------------------------------------------------------------*/
+.mt-7 {
+    margin-top: 7rem;
+}
+
+.flow {
+    width: 100%;
+}
+
+.flow-left {
+    width: auto;
+    height: auto;
+    background: #2864FF;
+}
+
+.flow-right {
+    width: 100%;
+    height: auto;
+    background: #ECECEC;
+}
+
+/*--------------------------------------------------------------
+# rooms.html
+--------------------------------------------------------------*/
+.rooms {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.options {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #676767;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.text-black {
+    color: black;
+}
+
+.mb200 {
+    margin-bottom: 200px;
+}
+
+/*--------------------------------------------------------------
+# rooms_detail.html
+--------------------------------------------------------------*/
+.room_detail {
+    margin-top: 10vh;
+}
+
+.full_width {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# rooms_reserve.html
+--------------------------------------------------------------*/
+.border_require {
+    border-color: rgb(118, 118, 118) !important;
+}
+
+.text-red {
+    color: red;
+}
+
+/*--------------------------------------------------------------
+# contact.html
+--------------------------------------------------------------*/
+.contact_require {
+    text-align: center;
+    width: 40px;
+    background: #FFAD3F;
+    border-radius: 2px;
+    color: white;
+}
+
+.h200 {
+    height: 200px;
+}
+
+/*--------------------------------------------------------------
+# rooms_reserve_comp.blade
+--------------------------------------------------------------*/
+@media(min-width:1023px){
+    .comp {
+        width: 400px;
+        margin: 5rem;
+    }
+
+    .comp2 {
+        margin: 4rem;
+        width: 400px;
+    }
+}
+
+@media(min-width:1200px){
+    .comp {
+        width: 100%;
+        margin: 3rem;
+    }
+}
+
+@media(max-width:300px){
+    .wide90 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# others
+--------------------------------------------------------------*/
+.wide90 {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wide60 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*---------------------------------------------------------------
+# radio button
+---------------------------------------------------------------*/
+.input {
+    display: none;
+}
+
+.text {
+    position: relative;
+}
+  
+.text:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    margin-bottom: -5px;
+}
+  
+.input:checked + .text:after {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    content: "✓";
+    color: white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #2864FF;
+}
+
+
+
+
+.error_text {
+    text-indent: 1em;
+    /* padding:20px; */
+    color: #e3342f;
+  }
+
+@media(max-width:2000px){
+    .tablet-margin{
+        margin-top: 25vw;
+    }
+}
+
+@media(max-width:1300px){
+    .tablet-margin{
+        margin-top:20vh;
+    }
+}
+
+@media(max-width:1030px){
+    .tablet-margin{
+        margin-top:51vh;
+    }
+}
+
+@media(max-width:1000px){
+    .tablet-margin{
+        margin-top: 33vh;
+    }
+}
+
+@media(max-width:600px){
+    .tablet-margin{
+        margin-top: 10vh;
+    }
+}

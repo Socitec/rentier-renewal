@@ -1,0 +1,133 @@
+/*カレンダー*/
+#calendar {
+    text-align: center;
+    width: 100%;
+}
+.cal_table {
+    outline: 2px solid #ddd;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+th {
+    color: #000;
+}
+.line {
+    outline: 1px solid #ddd;
+    padding: 10px 0px;
+    text-align: center;
+    width: 14% !important;
+}
+/*日曜日*/
+.sunday {
+    color: #ff7644;
+}
+/*土曜日*/
+.saturday {
+    color: #339aff;
+}
+/*前後月の日付*/
+td.disabled {
+    color: #ccc;
+}
+/*本日*/
+td.today {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/*ボタン*/
+#next-prev-button {
+    position: relative;
+}
+#next-prev-button button{
+    cursor: pointer;
+    background: #0d6efd;
+    color: #fff;
+    border: 1px solid #0d6efd;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+}
+#next-prev-button button:hover{
+    background-color: #0e7ffd;
+    border-color: #0e7ffd;
+}
+#prev {
+    float: left;
+}
+#next {
+    float: right;
+}
+
+.selector {
+    display: none;
+}
+
+.day_select {
+    position: relative;
+}
+  
+.selector:checked + .day_select {
+    background-color: #67ef67;
+    color: #fff;
+    padding: 10px 31px;
+}
+
+@media (max-width: 1024px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 10px 23px;
+    }
+}
+
+@media (max-width: 992px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width: 600px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 370px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 10px 4px;
+    }
+}
+
+@media (max-width: 330px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 10px 1px;
+    }
+}
+
+@media (max-width: 300px){
+    .selector:checked + .day_select {
+        background-color: #67ef67;
+        color: #fff;
+        padding: 5px;
+    }
+}
+
+.fill_green {
+    background-color: #76ffcd;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
