@@ -13,11 +13,13 @@
   <!-- <a href="{{url('/register')}}" class="btn btn-primary text-white mr-1">管理者用登録ページへ</a> -->
   <!-- <a href="{{url('/login')}}" class="btn btn-primary text-white">管理者用ログインページへ</a> -->
   @endauth
-  <ul>
-    <li><a class="nav-link scrollto active" href="{{url('/')}}">ホーム</a></li>
-    <li><a class="nav-link scrollto" href="{{url('/about')}}">はじめての方へ</a></li>
-    <li><a class="nav-link scrollto" href="{{url('/rooms')}}">お部屋一覧</a></li>
-    <li><a class="nav-link scrollto" href="{{url('/contact')}}">お問い合わせ</a></li>
+  <!-- トップ画面用 -->
+  <ul class="header__menu-list">
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/about')}}">レンティアとは</a></li>
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/land')}}">土地を探したい</a></li>
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/property')}}">物件を探したい</a></li>
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/stay')}}">宿泊・レンタルしたい</a></li>
+    <li class="header__menu-item header__menu-item--background"><a class="nav-link scrollto" href="{{url('/contact')}}"><img src="{{asset('assets/img/header_icon_mail.svg')}}" alt="mail">お問い合わせ</a></li>
   </ul>
   <i class="bi bi-list mobile-nav-toggle"></i>
 </nav><!-- /navbar -->

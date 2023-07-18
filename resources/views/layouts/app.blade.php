@@ -14,11 +14,14 @@
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
-  
+
   <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Noto+Sans+JP:wght@400;500;600;700;800&family=Zen+Kaku+Gothic+Antique:wght@900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
@@ -42,7 +45,7 @@
   <link href="{{asset('assets/css/new_style.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="{{asset('assets/css/new_my_style.css')}}">
 
-  
+
   <!-- Scripts -->
   <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -92,9 +95,9 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
+    <div class="header-inner d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="{{url('/')}}"><img src="{{asset('assets/img/logo.png')}}" alt="logo"></a></h1>
+      <div class="logo me-auto"><a href="{{url('/')}}"><img src="{{asset('assets/img/header_logo.svg')}}" alt="logo"></a></div>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -109,37 +112,46 @@
   <!-- ======= Footer ======= -->
   <footer class="footer-bg">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-8 mx-auto text-center">
-            <ul class="text-white">
-              <li class="inline"><a href="{{url('/')}}">ホーム</a></li>
-              <li class="inline"><a href="{{url('/about')}}">はじめての方</a></li>
-              <li class="inline"><a href="{{url('/rooms')}}">お部屋一覧</a></li>
-              <li class="inline"><a href="{{url('/privacy_policy')}}">プライバシーポリシー</a></li>
-              <li class="inline"><a href="{{url('/terms_of_use')}}">利用規約</a></li>
-              <li class="inline"><a href="{{url('/contact')}}">お問い合わせ</a></li>
-            </ul>
-          </div>
+    <div class="container footer__container">
+      <div class="footer__logo-area">
+        <img class="footer__logo-img" src="{{asset('assets/img/footer_logo.svg')}}" alt="logo">
+        <p class="footer__copyright">
+          © 2023 Ito Business Office LLC All Rights Reserved.
+        </p>
+      </div>
+      <div class="footer__link-area">
+        <div class="footer__link-box">
+          <ul class="footer__link-list">
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/about')}}">レンティアとは</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/company')}}">会社概要</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/contact')}}">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="footer__link-box">
+          <ul class="footer__link-list">
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/land')}}">土地を探したい</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/property')}}">物件を探したい</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/rental')}}">宿泊・レンタルしたい</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
 
       <div class="text-center">
         <div class="copyright">
           &copy; Copyright <strong><span>Ito Business Office LLC</span></strong> All Rights Reserved
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
+        <div class="credits">-->
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+    <!-- </div>
       </div>
-    </div>
+    </div> -->
   </footer><!-- End Footer -->
 
   <!-- <div id="preloader"></div> -->
@@ -161,16 +173,19 @@
   <script src="{{asset('assets/js/main.js')}}"></script>
 
   <script>
-    var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        slidesPerView: 3,
-        spaceBetween: 10,
-        centeredSlides : true,
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-      })
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 10,
+      centeredSlides: true,
+      pagination: '.swiper-pagination',
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev'
+    })
   </script>
+
+  <!-- Additon when renewal -->
+  <script src="{{asset('assets/js/renewal.js')}}"></script>
 
   @yield('script')
 

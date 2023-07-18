@@ -34,6 +34,21 @@ Route::get('/rooms', '\App\Http\Controllers\Rooms_Controller@index');
 // お部屋一覧(福岡か？愛知県)
 Route::get('/rooms/{prefectures}', '\App\Http\Controllers\Rooms_Controller@prefectures_seach');
 
+// レンティアとは
+Route::get('/about', function() {
+    return view('about');
+});
+
+// 土地一覧
+Route::get('/landList', function() {
+    return view('landList');
+});
+
+// 物件一覧
+Route::get('/propertyList', function() {
+    return view('propertyList');
+});
+
 
 // お部屋詳細
 Route::get('/room_detail/{room_id}', '\App\Http\Controllers\Room_detail_Controller@index');
