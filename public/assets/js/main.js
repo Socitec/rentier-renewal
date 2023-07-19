@@ -219,7 +219,7 @@
    * Toppage property section slider
    */
 
-  new Swiper('.swiper', {
+  const newswiper = new Swiper('.js-swiper', {
     speed: 600,
     loop: true,
     autoplay: {

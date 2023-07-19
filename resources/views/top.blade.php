@@ -115,7 +115,7 @@
       </div>
       <div class="top__slide-area">
         <div class="top__slide-box">
-          <div class="swiper">
+          <div class="js-swiper">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
@@ -125,7 +125,7 @@
               <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
             </div>
             <!-- 必要に応じてページネーション -->
-            <div class="swiper-pagination"></div>
+            <div class="js-swiper-pagination"></div>
             <!-- 必要に応じてナビボタン -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -152,7 +152,7 @@
       </div>
       <div class="top__slide-area">
         <div class="top__slide-box">
-          <div class="swiper">
+          <div class="js-swiper">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
@@ -162,10 +162,10 @@
               <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
             </div>
             <!-- 必要に応じてページネーション -->
-            <div class="swiper-pagination"></div>
+            <!-- <div class="swiper-pagination"></div> -->
             <!-- 必要に応じてナビボタン -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
           </div>
         </div>
       </div>
