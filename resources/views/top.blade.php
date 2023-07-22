@@ -125,10 +125,10 @@
               <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
             </div>
             <!-- 必要に応じてページネーション -->
-            <!-- <div class="js-swiper-pagination"></div> -->
+            <div class="js-swiper-pagination"></div>
             <!-- 必要に応じてナビボタン -->
-            <!-- <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </div>
