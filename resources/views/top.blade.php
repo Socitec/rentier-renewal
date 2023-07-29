@@ -11,6 +11,9 @@
       買う。<br>
       ぜんぶ、レンティアで
     </h1>
+    <h2>
+      デモサイト
+    </h2>
     <a href="{{url('/about')}}" class="btn-get-started scrollto ml3vw none">about</a>
   </div>
 </section><!-- End Hero -->
@@ -88,10 +91,10 @@
           </h3>
           <img class="top__howto-img" src="{{asset('assets/img/index_howto_property.png')}}" alt="property">
           <p class="top__howto-description-text">
-            使いたい時に使いたい時間だけ！<br>
-            ワークスペースとして、<br>
-            パーティールームとしても<br>
-            ご利用いただけます。
+            新しく家を購入したい。<br>
+            家を建てる土地が欲しい。<br>
+            そんな方にも穴場の物件・土地が<br>
+            見つかるかもしれません。
           </p>
         </div>
       </div>
@@ -104,10 +107,10 @@
     <div class="container">
       <div class="top__heading-area">
         <p class="top__heading-toptext">
-          人気の土地・物件
+          人気の物件
         </p>
         <h2 class="top__heading-maintext">
-          Popular <span class="top__heading-toptext--bold">Land</span> and <span class="top__heading-toptext--bold">Property</span>
+          Popular <span class="top__heading-toptext--bold">Property</span>
         </h2>
       </div>
       <div class="top__bar-area">
@@ -115,17 +118,18 @@
       </div>
       <div class="top__slide-area">
         <div class="top__slide-box">
-          <div class="js-swiper">
+          <div class="swiper">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
             </div>
             <!-- 必要に応じてページネーション -->
-            <div class="js-swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
             <!-- 必要に応じてナビボタン -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -152,20 +156,21 @@
       </div>
       <div class="top__slide-area">
         <div class="top__slide-box">
-          <div class="js-swiper">
+          <div class="swiper top__slide">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
-              <div class="swiper-slide"><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property"></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
+              <div class="swiper-slide"><a href=""><img class="top__swiper-item-img" src="{{asset('assets/img/dummy_room.png')}}" alt="property"></a></div>
             </div>
             <!-- 必要に応じてページネーション -->
-            <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-pagination"></div>
             <!-- 必要に応じてナビボタン -->
-            <!-- <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </div>

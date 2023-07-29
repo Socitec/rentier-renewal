@@ -11,6 +11,7 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #444444;
+  background-color: #F8F8FF;
 }
 
 a {
@@ -1241,6 +1242,10 @@ section {
 /*--------------------------------------------------------------
   # Land and Property section
   --------------------------------------------------------------*/
+.top__rooms-section {
+  background-color: #fff;
+}
+
 .top__headin-maintext {}
 
 .top__slide-area {
@@ -1253,6 +1258,13 @@ section {
 .top__slide-box {
   width: 100%;
 }
+
+.swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.top__slide {}
 
 .swiper-slide {
   /* width: 30%; */
@@ -1269,6 +1281,7 @@ section {
   width: 100%;
 }
 
+.swiper-pagination {}
 
 /*--------------------------------------------------------------
   # About
@@ -1440,6 +1453,8 @@ section {
     opacity: 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
   # Counts

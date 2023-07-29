@@ -16,8 +16,8 @@
   <!-- Land画面用 -->
   <ul class="header__menu-list">
     <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/about')}}">レンティアとは</a></li>
-    <li class="header__menu-item"><a class="nav-link scrollto active" href="{{url('/land')}}">土地を探したい</a></li>
-    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/property')}}">物件を探したい</a></li>
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/landList')}}">土地を探したい</a></li>
+    <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/propertyList')}}">物件を探したい</a></li>
     <li class="header__menu-item"><a class="nav-link scrollto" href="{{url('/stay')}}">宿泊・レンタルしたい</a></li>
     <li class="header__menu-item header__menu-item--background"><a class="nav-link scrollto" href="{{url('/contact')}}"><img src="{{asset('assets/img/header_icon_mail.svg')}}" alt="mail">お問い合わせ</a></li>
   </ul>

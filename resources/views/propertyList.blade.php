@@ -5,10 +5,10 @@
 <section id="" class="c_heading-section">
   <div class="container c_container c_heading-container">
     <h1 class="c_heading-text">
-      土地情報一覧
+      物件情報一覧
     </h1>
     <p class="c_heading-subtext">
-      Land
+      Property
     </p>
   </div>
 </section>
@@ -33,112 +33,113 @@
     <div class="container c_list-container">
       <!-- backEnd: ここから複製 -->
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <!-- backEnd: 複製ここまで -->
+
       <!-- ここからダミー -->
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>
       <div class="c_list-box">
-        <a href="{{url('/landDetail')}}" class="c_list-link">
+        <a href="{{url('/propertyDetail')}}" class="c_list-link">
           <img class="c_property-img" src="{{asset('assets/img/dummy_property-thumbnail.jpg')}}" alt="property">
           <p class="c_list-description-text">
-            土地の情報がここに入ります。<br>
-            土地の情報がここに入ります。
+            物件の情報がここに入ります。<br>
+            物件の情報がここに入ります。
           </p>
         </a>
       </div>

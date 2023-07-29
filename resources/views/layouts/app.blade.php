@@ -13,7 +13,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Favicons -->
-  <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
+  <link rel="shortcut icon" href="{{ asset('/favicon.png') }}">
 
   <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
@@ -129,8 +129,8 @@
         </div>
         <div class="footer__link-box">
           <ul class="footer__link-list">
-            <li class="footer__link-item"><a class="footer__link" href="{{url('/land')}}">土地を探したい</a></li>
-            <li class="footer__link-item"><a class="footer__link" href="{{url('/property')}}">物件を探したい</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/landList')}}">土地を探したい</a></li>
+            <li class="footer__link-item"><a class="footer__link" href="{{url('/propertyList')}}">物件を探したい</a></li>
             <li class="footer__link-item"><a class="footer__link" href="{{url('/rental')}}">宿泊・レンタルしたい</a></li>
           </ul>
         </div>

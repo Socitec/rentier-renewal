@@ -49,12 +49,26 @@ Route::get('/propertyList', function() {
     return view('propertyList');
 });
 
+// 物件詳細
+Route::get('/propertyDetail', function() {
+    return view('propertyDetail');
+});
+
+// 土地詳細
+Route::get('/landDetail', function() {
+    return view('landDetail');
+});
+
+// 会社概要
+Route::get('/company', function() {
+    return view('company');
+});
 
 // お部屋詳細
 Route::get('/room_detail/{room_id}', '\App\Http\Controllers\Room_detail_Controller@index');
 
 // お問い合わせ
-Route::get('/contact', '\App\Http\Controllers\Contact_Controller@index');
+Route::post('/contact', '\App\Http\Controllers\Contact_Controller@index');
 
 // お問い合わせ送信
 Route::post('/contact_send', '\App\Http\Controllers\Contact_send_Controller@index');

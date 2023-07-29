@@ -51,6 +51,306 @@
     background: #ECECEC;
 }
 
+
+/*--------------------------------------------------------------
+  # Common List Page -> LandList Page, PropertyList Page
+  --------------------------------------------------------------*/
+.c_container {
+    width: min(100%, 1029px);
+}
+
+.c_heading-section {
+    padding-top: 120px;
+    padding-bottom: 23px;
+}
+
+.c_heading-container {
+    padding-top: 117px;
+    border-bottom: 1px solid #A0B5EF;
+}
+
+.c_heading-container {
+    padding-bottom: 23px;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+.c_heading-text {
+    margin-bottom: 0;
+    color: #142B6B;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.c_heading-subtext {
+    margin-bottom: 0;
+    color: #BAC5F4;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.c_list-section {
+    padding-top: 56px;
+}
+
+.c_list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 27px;
+    row-gap: 69px;
+    width: min(100%, 1030px);
+}
+
+.c_property-img {
+    width: 100%;
+    height: auto;
+}
+
+.c_list-description-text {
+    padding-top: 16px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.c_list-paganation-section {
+    padding-bottom: 130px;
+}
+
+.c_list-paganation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c_list-pagenation-top-link {
+    display: flex;
+    gap: 12px;
+}
+
+.c_list-pagenation-bouble-arrow-icon {
+    color: #142B6B;
+}
+
+.c_list-pagenation-top-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #142B6B;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/*--------------------------------------------------------------
+  # Common List Page -> LandList Page, PropertyList Page
+  --------------------------------------------------------------*/
+.c_detail-section {
+    padding-top: 0;
+}
+
+.c_detail-container {
+    padding-top: 58px;
+}
+
+.c_detail-slider-box {
+    display: flex;
+    justify-content: center;
+}
+
+.detail_swiper {
+    width: min(100%, 800px);
+    position: relative;
+    overflow: hidden;
+}
+
+.c_detail-description-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+.c_detail-slider-item-img {
+    width: 100%;
+}
+
+.c_detail-description-text {
+    width: min(100%, 906px);
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.c_detail-specification-box {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 45px;
+    display: grid;
+    gap: 24px;
+    width: min(100%, 1021px);
+    background-color: #fff;
+}
+
+.c_detail-specification-double-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 62px;
+}
+
+.c_detail-specification-single-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #D9D9D9;
+}
+
+.c_detail-specification-property-text {
+    margin: 0;
+    color: #3457B8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.c_detail-specification-value-text {
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.c_button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 62px;
+}
+
+.c_detail-contact-button {
+    padding: 25px 115px;
+    border-radius: 100px;
+    background: #F0A548;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/*--------------------------------------------------------------
+  # Contact Page
+  --------------------------------------------------------------*/
+.contact__section {
+    padding-top: 47px;
+
+}
+
+.contact__wrapper {}
+
+.contact__box {
+    padding: 44px 66px;
+    width: min(100%, 1021px);
+    background-color: #fff;
+}
+
+.contact__item--purpose {
+    padding-bottom: 15px;
+}
+
+.contact__item-purpose-checkbox {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact__property {
+    margin: 0 11px;
+    color: #3457B8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact__checkbox-item {
+    margin-right: 40px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.contact__input-text {
+    border: none;
+}
+
+.contact__item--underline {
+    border-bottom: 1px solid #E8E8EC;
+}
+
+.contact__content-table {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__input-content {
+    border: 1px solid #E8E8EC;
+}
+
+.contact__input-submit {
+    padding: 25px 107px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #F0A548;
+    border: none;
+}
+
+/*--------------------------------------------------------------
+  # Company Page
+  --------------------------------------------------------------*/
+.company__detail-section {
+    margin-bottom: 115px;
+}
+
+.company__detail-container {}
+
+.company__detail-box {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 48px 66px;
+    gap: 30px;
+    width: min(100%, 1021px);
+    background-color: #fff;
+}
+
+.company__detail-row-item {
+    gap: 10px;
+}
+
+.company__detail-property-text {
+    margin: 0;
+    padding-bottom: 10px;
+    color: #3457B8;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: solid 1px #D9D9D9;
+}
+
+.company__detail-value-text {
+    margin: 0;
+    padding-top: 10px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.company__detail-address {
+    width: 362px;
+}
+
 /*--------------------------------------------------------------
 # rooms.html
 --------------------------------------------------------------*/
@@ -107,6 +407,7 @@
 # contact.html
 --------------------------------------------------------------*/
 .contact_require {
+    margin-inline-start: 1rem;
     text-align: center;
     width: 40px;
     background: #FFAD3F;
@@ -121,7 +422,7 @@
 /*--------------------------------------------------------------
 # rooms_reserve_comp.blade
 --------------------------------------------------------------*/
-@media(min-width:1023px){
+@media(min-width:1023px) {
     .comp {
         width: 400px;
         margin: 5rem;
@@ -133,14 +434,14 @@
     }
 }
 
-@media(min-width:1200px){
+@media(min-width:1200px) {
     .comp {
         width: 100%;
         margin: 3rem;
     }
 }
 
-@media(max-width:300px){
+@media(max-width:300px) {
     .wide90 {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
@@ -174,7 +475,7 @@
 .text {
     position: relative;
 }
-  
+
 .text:before {
     content: "";
     display: inline-block;
@@ -185,18 +486,19 @@
     border-radius: 2px;
     margin-bottom: -5px;
 }
-  
-.input:checked + .text:after {
+
+.input:checked+.text:after {
     position: absolute;
     top: 0px;
     left: 2px;
     content: "✓";
     color: white;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
     border-radius: 2px;
     background-color: #2864FF;
+    padding-bottom: 27px;
 }
 
 
@@ -206,34 +508,34 @@
     text-indent: 1em;
     /* padding:20px; */
     color: #e3342f;
-  }
+}
 
-@media(max-width:2000px){
-    .tablet-margin{
+@media(max-width:2000px) {
+    .tablet-margin {
         margin-top: 25vw;
     }
 }
 
-@media(max-width:1300px){
-    .tablet-margin{
-        margin-top:20vh;
+@media(max-width:1300px) {
+    .tablet-margin {
+        margin-top: 20vh;
     }
 }
 
-@media(max-width:1030px){
-    .tablet-margin{
-        margin-top:51vh;
+@media(max-width:1030px) {
+    .tablet-margin {
+        margin-top: 51vh;
     }
 }
 
-@media(max-width:1000px){
-    .tablet-margin{
+@media(max-width:1000px) {
+    .tablet-margin {
         margin-top: 33vh;
     }
 }
 
-@media(max-width:600px){
-    .tablet-margin{
+@media(max-width:600px) {
+    .tablet-margin {
         margin-top: 10vh;
     }
 }
